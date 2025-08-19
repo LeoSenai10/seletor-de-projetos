@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    height: 15vh;
+    width: 100vw;
+    background-color: chocolate;
+}
+
+.corchocolate{
+    background-image: linear-gradient(to right, #371605, #621c19, #921b34, #c2105e, #eb1297)!important;
+}
+
+.corchocolate a{
+    color: white;
+}
+
+.corchocolate a:hover{
+    color: orange;
+}
+
+.corchocolate a:active{
+    color: #eb1297;
+}
+
+body{
+    overflow-x: hidden;
+}
+#pag1{
+    width: 100vw;
+    height: auto;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1; /*
+}

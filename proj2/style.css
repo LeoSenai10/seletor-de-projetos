@@ -1,0 +1,33 @@
+/*Reset essencial*/
+*{margin: 0; padding: 0; box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+
+body{line-height: 1.6; background-color: blueviolet;}
+
+/*cabeçalho e menu*/
+header{background-color: azure; padding: 15px 20px;}
+.logo{display: inline-block;}
+.menu{list-style: none; float: right;}
+.menu li{ display: inline; margin: 0 15px;}
+.menu a{color: white; text-decoration: none; font-weight: bold;}
+.menu a.active, .menu a:hover{color: crimson;}
+
+/*banner*/
+.banner{color: aqua; text-align: center; padding: 100px 20px;}
+.banner h2{font-size: 2.5em; margin-bottom: 10px;}
+
+/*botões*/
+.btn {display: inline-block; background-color: coral; color: white; padding: 10px 20px; margin-top: 15px; text-decoration: none; border-radius: 5px ; font-weight: bold;}
+.btn:hover{background-color: darkorchid;}
+
+main{padding: 40px 20px;}
+section h2{margin-bottom: 20px; color: black;}
+.cards{display: flex; gap: 20px; flex-wrap: wrap;}
+.card{background-color: brown; padding: 20px; flex-wrap: wrap;}
+.card{background-color: cornflowerblue; padding: 20px; flex: 1; min-width: 250px; border-radius: 8px;box-shadow: 0px 2px 5px rgba(0,0,0,0.1);text-align: center;}
+
+.formulario{background-color: aqua; padding: 20px; max-width: 500px;margin: auto;border-radius: 8px; box-shadow: 0px 2px 5px rgba(0,0,0,0.1);}
+.formulario label {display: block; margin-top: 10px; font-weight: bold;}
+.formulario input, .formulario textarea {width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: 1px solid #ccc;}
+.formulario button {margin-top: 15px ;width: 100%;}
+
+footer{text-align: center; padding: 20px; background-color: darksalmon;color: darkblue;margin-top: 40px;}
